@@ -269,10 +269,10 @@ fork这个仓库是为了看里面的代码，夯实自己的基础，印证自�
 - [ ] MapCache.js
 - [ ] SetCache.js
 - [ ] Stack.js
-- [ ] addMapEntry.js
-- [ ] addSetEntry.js
-- [ ] arrayEach.js
-- [ ] arrayEachRight.js
+- [x] addMapEntry.js 将数组arr拆成arr[0], arr[1]放入传入的map.
+- [x] addSetEntry.js 将值放入传入的set
+- [x] arrayEach.js 专门为数组准备的forEach函数
+- [x] arrayEachRight.js 从数组最后一个元素往第一个元素迭代，返回false停止迭代
 - [ ] arrayIncludes.js
 - [ ] arrayIncludesWith.js
 - [ ] arrayLikeKeys.js
@@ -291,7 +291,7 @@ fork这个仓库是为了看里面的代码，夯实自己的基础，印证自�
 - [ ] baseDifference.js
 - [ ] baseEach.js
 - [ ] baseEachRight.js
-- [ ] baseFindIndex.js
+- [x] baseFindIndex.js 关于findIndex和findLastIndex的简单实现
 - [ ] baseFindKey.js
 - [ ] baseFlatten.js
 - [ ] baseFor.js
