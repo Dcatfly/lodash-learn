@@ -3,7 +3,8 @@ import baseIndexOf from './baseIndexOf.js'
 /**
  * A specialized version of `includes` for arrays without support for
  * specifying an index to search from.
- *
+ * 数组的includes方法，并且不支持指定起始index的版本.
+ * ES中数组的includes方法支持传入index，支持检测NaN, 而且还支持正负数。
  * @private
  * @param {Array} [array] The array to inspect.
  * @param {*} target The value to search for.

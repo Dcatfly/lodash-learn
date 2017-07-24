@@ -273,7 +273,7 @@ fork这个仓库是为了看里面的代码，夯实自己的基础，印证自�
 - [x] addSetEntry.js 将值放入传入的set
 - [x] arrayEach.js 专门为数组准备的forEach函数
 - [x] arrayEachRight.js 从数组最后一个元素往第一个元素迭代，返回false停止迭代
-- [ ] arrayIncludes.js
+- [x] arrayIncludes.js 数组的includes方法，并且不支持指定起始index的版本.
 - [ ] arrayIncludesWith.js
 - [ ] arrayLikeKeys.js
 - [ ] arrayReduce.js
@@ -301,13 +301,13 @@ fork这个仓库是为了看里面的代码，夯实自己的基础，印证自�
 - [ ] baseGet.js
 - [ ] baseGetTag.js
 - [ ] baseInRange.js
-- [ ] baseIndexOf.js
+- [x] baseIndexOf.js indexOf的基础实现，没有检测fromIndex是否超出边界的版本
 - [ ] baseIndexOfWith.js
 - [ ] baseIntersection.js
 - [ ] baseIsEqual.js
 - [ ] baseIsEqualDeep.js
 - [ ] baseIsMatch.js
-- [ ] baseIsNaN.js
+- [x] baseIsNaN.js isNaN的基础实现，不支持number object
 - [ ] baseMatches.js
 - [ ] baseMatchesProperty.js
 - [ ] baseMerge.js
@@ -397,7 +397,7 @@ fork这个仓库是为了看里面的代码，夯实自己的基础，印证自�
 - [ ] setToArray.js
 - [ ] setToPairs.js
 - [ ] setToString.js
-- [ ] strictIndexOf.js
+- [x] strictIndexOf.js 基于严格相等的（===）indexOf
 - [ ] strictLastIndexOf.js
 - [ ] stringSize.js
 - [ ] stringToArray.js
