@@ -274,7 +274,7 @@ fork这个仓库是为了看里面的代码，夯实自己的基础，印证自�
 - [x] arrayEach.js 专门为数组准备的forEach函数
 - [x] arrayEachRight.js 从数组最后一个元素往第一个元素迭代，返回false停止迭代
 - [x] arrayIncludes.js 数组的includes方法，并且不支持指定起始index的版本.
-- [ ] arrayIncludesWith.js
+- [x] arrayIncludesWith.js 支持传入比较函数的arrayIncludes
 - [ ] arrayLikeKeys.js
 - [ ] arrayReduce.js
 - [ ] arrayReduceRight.js

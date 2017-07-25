@@ -1,6 +1,6 @@
 /**
  * This function is like `arrayIncludes` except that it accepts a comparator.
- *
+ * 支持传入比较函数的arrayIncludes
  * @private
  * @param {Array} [array] The array to inspect.
  * @param {*} target The value to search for.
@@ -11,7 +11,7 @@ function arrayIncludesWith(array, target, comparator) {
   if (array == null) {
     return false
   }
-
+  //return能跳出for...of
   for (const value of array) {
     if (comparator(target, value)) {
       return true
