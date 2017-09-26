@@ -23,7 +23,7 @@ const weakMapCtorString = `${WeakMap}`
  * @returns {string} Returns the `toStringTag`.
  */
 let getTag = baseGetTag
-
+//修补特殊环境下的表现不一致的问题 但是我在node@5.9.0下面实测baseGetTag方法没出现任何问题。。
 // Fallback for data views, maps, sets, and weak maps in IE 11 and promises in Node.js < 6.
 if ((DataView && getTag(new DataView(new ArrayBuffer(1))) != dataViewTag) ||
     (getTag(new Map) != mapTag) ||

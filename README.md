@@ -99,7 +99,7 @@ fork这个仓库是为了看里面的代码，夯实自己的基础，印证自�
 - [ ] invertBy.js
 - [ ] invoke.js
 - [ ] invokeMap.js
-- [ ] isArguments.js
+- [x] isArguments.js
 - [ ] isArrayBuffer.js
 - [ ] isArrayLike.js
 - [ ] isArrayLikeObject.js
@@ -299,7 +299,7 @@ fork这个仓库是为了看里面的代码，夯实自己的基础，印证自�
 - [ ] baseForOwnRight.js
 - [ ] baseForRight.js
 - [ ] baseGet.js
-- [ ] baseGetTag.js
+- [x] baseGetTag.js
 - [ ] baseInRange.js
 - [x] baseIndexOf.js indexOf的基础实现，没有检测fromIndex是否超出边界的版本
 - [ ] baseIndexOfWith.js
@@ -368,14 +368,14 @@ fork这个仓库是为了看里面的代码，夯实自己的基础，印证自�
 - [ ] equalArrays.js
 - [ ] equalByTag.js
 - [ ] equalObjects.js
-- [ ] freeGlobal.js
+- [x] freeGlobal.js
 - [ ] getAllKeys.js
 - [ ] getAllKeysIn.js
 - [ ] getHolder.js
 - [ ] getMatchData.js
 - [ ] getSymbols.js
 - [ ] getSymbolsIn.js
-- [ ] getTag.js
+- [x] getTag.js
 - [ ] hasUnicode.js
 - [ ] initCloneObject.js
 - [ ] isFlattenable.js
@@ -393,7 +393,7 @@ fork这个仓库是为了看里面的代码，夯实自己的基础，印证自�
 - [ ] reEscape.js
 - [ ] reEvaluate.js
 - [ ] reInterpolate.js
-- [ ] root.js
+- [x] root.js
 - [ ] setToArray.js
 - [ ] setToPairs.js
 - [ ] setToString.js

@@ -2,7 +2,7 @@ import getTag from './.internal/getTag.js'
 
 /**
  * Checks if `value` is likely an `arguments` object.
- *
+ * 检查value是否是类似arguments的对象 第一次知道还有[object Arguments] 另外记得剪头函数不能使用arguments
  * @since 0.1.0
  * @category Lang
  * @param {*} value The value to check.
