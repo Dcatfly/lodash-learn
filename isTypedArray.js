@@ -9,6 +9,8 @@ const nodeIsTypedArray = nodeUtil && nodeUtil.isTypedArray
 
 /**
  * Checks if `value` is classified as a typed array.
+ * 检测value是否是Array子类型的元素
+ * Int8Array; Uint8Array; Uint8ClampedArray; Int16Array; Uint16Array; Int32Array; Uint32Array; Float32Array; Float64Array;
  *
  * @since 3.0.0
  * @category Lang

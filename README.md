@@ -104,7 +104,7 @@ fork这个仓库是为了看里面的代码，夯实自己的基础，印证自�
 - [ ] isArrayLike.js
 - [ ] isArrayLikeObject.js
 - [ ] isBoolean.js
-- [ ] isBuffer.js
+- [x] isBuffer.js
 - [ ] isDate.js
 - [ ] isElement.js
 - [ ] isEmpty.js
@@ -126,7 +126,7 @@ fork这个仓库是为了看里面的代码，夯实自己的基础，印证自�
 - [ ] isSet.js
 - [ ] isString.js
 - [ ] isSymbol.js
-- [ ] isTypedArray.js
+- [x] isTypedArray.js
 - [ ] isUndefined.js
 - [ ] isWeakMap.js
 - [ ] isWeakSet.js
@@ -275,7 +275,7 @@ fork这个仓库是为了看里面的代码，夯实自己的基础，印证自�
 - [x] arrayEachRight.js 从数组最后一个元素往第一个元素迭代，返回false停止迭代
 - [x] arrayIncludes.js 数组的includes方法，并且不支持指定起始index的版本.
 - [x] arrayIncludesWith.js 支持传入比较函数的arrayIncludes
-- [ ] arrayLikeKeys.js
+- [x] arrayLikeKeys.js 创建value枚举属性名称的数组 value是个array-like对象
 - [ ] arrayReduce.js
 - [ ] arrayReduceRight.js
 - [ ] asciiSize.js
@@ -379,7 +379,7 @@ fork这个仓库是为了看里面的代码，夯实自己的基础，印证自�
 - [ ] hasUnicode.js
 - [ ] initCloneObject.js
 - [ ] isFlattenable.js
-- [ ] isIndex.js
+- [x] isIndex.js
 - [ ] isKey.js
 - [ ] isPrototype.js
 - [ ] isStrictComparable.js
@@ -388,7 +388,7 @@ fork这个仓库是为了看里面的代码，夯实自己的基础，印证自�
 - [ ] matchesStrictComparable.js
 - [ ] memoizeCapped.js
 - [ ] metaMap.js
-- [ ] nodeUtil.js
+- [x] nodeUtil.js
 - [ ] parent.js
 - [ ] reEscape.js
 - [ ] reEvaluate.js
