@@ -2,6 +2,7 @@ import root from './.internal/root.js'
 
 /** Detect free variable `exports`. */
 //探测exports是否存在 并赋值给freeExports 不过实测node&borwser中exports都是undefined啊
+// 哦。。傻了。。
 const freeExports = typeof exports == 'object' && exports !== null && !exports.nodeType && exports
 
 /** Detect free variable `module`. */

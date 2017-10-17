@@ -1,7 +1,9 @@
 /**
  * Performs a
  * [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
+ * 额。。这是ES6规范中对samevaluezero的描述
  * comparison between two values to determine if they are equivalent.
+ * 比较两个value是否相等 包括===和NaN
  *
  * @since 4.0.0
  * @category Lang

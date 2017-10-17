@@ -1,5 +1,7 @@
 /**
  * Converts an ASCII `string` to an array.
+ * string.split('')。。。。。不过为什么非要说ASCII呢。。
+ *
  *
  * @private
  * @param {string} string The string to convert.

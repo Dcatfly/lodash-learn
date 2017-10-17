@@ -1,12 +1,13 @@
 /**
  * A specialized version of `reduce` for arrays.
- *
+ * 专门为array准备的reduce方法
  * @private
  * @param {Array} [array] The array to iterate over.
  * @param {Function} iteratee The function invoked per iteration.
- * @param {*} [accumulator] The initial value.
+ * @param {*} [accumulator 累加者] The initial value. 初始值
  * @param {boolean} [initAccum] Specify using the first element of `array` as
- *  the initial value.
+ *  the initial value. 指定array的第一个元素做初始值
+ *  为什么不用accumulator做判断呢？
  * @returns {*} Returns the accumulated value.
  */
 function arrayReduce(array, iteratee, accumulator, initAccum) {

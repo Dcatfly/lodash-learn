@@ -50,7 +50,7 @@ fork这个仓库是为了看里面的代码，夯实自己的基础，印证自�
 - [ ] each.js
 - [ ] eachRight.js
 - [ ] endsWith.js
-- [ ] eq.js
+- [x] eq.js 比较两个value是否相等 包括===和NaN
 - [ ] eqDeep.js
 - [ ] escape.js
 - [ ] escapeRegExp.js
@@ -276,14 +276,14 @@ fork这个仓库是为了看里面的代码，夯实自己的基础，印证自�
 - [x] arrayIncludes.js 数组的includes方法，并且不支持指定起始index的版本.
 - [x] arrayIncludesWith.js 支持传入比较函数的arrayIncludes
 - [x] arrayLikeKeys.js 创建value枚举属性名称的数组 value是个array-like对象
-- [ ] arrayReduce.js
-- [ ] arrayReduceRight.js
-- [ ] asciiSize.js
-- [ ] asciiToArray.js
-- [ ] assignMergeValue.js
-- [ ] assignValue.js
+- [x] arrayReduce.js 适用于array的reduce方法
+- [x] arrayReduceRight.js 适用于array的reduceRight方法
+- [x] asciiSize.js string的length
+- [x] asciiToArray.js string.split('')
+- [x] assignMergeValue.js 类似assignValue，但如果obj[key]存在 不合并undefined
+- [x] assignValue.js 如果实例本身有没有key或者obj[key] !== value则做赋值操作
 - [ ] assocIndexOf.js
-- [ ] baseAssignValue.js
+- [x] baseAssignValue.js 不带类型检查的assignValue的基础实现
 - [ ] baseAt.js
 - [ ] baseClone.js
 - [ ] baseConforms.js

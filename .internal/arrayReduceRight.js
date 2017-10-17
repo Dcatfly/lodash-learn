@@ -1,5 +1,6 @@
 /**
  * A specialized version of `reduceRight` for arrays.
+ * 适用于array的reduceRight
  *
  * @private
  * @param {Array} [array] The array to iterate over.
@@ -14,6 +15,7 @@ function arrayReduceRight(array, iteratee, accumulator, initAccum) {
   if (initAccum && length) {
     accumulator = array[--length]
   }
+  //跟arrayReduce的反差，，怎么感觉以前好像见过。。
   while (length--) {
     accumulator = iteratee(accumulator, array[length], length, array)
   }
